@@ -27,6 +27,7 @@ TODO: Swift的Extension工具,包含String/Array/Dictiory/UIImage/UIView等等.
   s.author           = { 'yccbcc' => 'yccbcc@163.com' }
   s.source           = { :git => 'https://github.com/yccbcc/ZHBExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.swift_version = '5.0';
 
   s.ios.deployment_target = '9.0'
 
