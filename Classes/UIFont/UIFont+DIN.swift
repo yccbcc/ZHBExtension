@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIFont {
+public extension UIFont {
     
     static func boldDINAlternate(ofSize: CGFloat) -> UIFont {
         return UIFont(name: "DIN Alternate", size: ofSize)!

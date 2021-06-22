@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Data {
+public extension Data {
     
     
     /** data -> String */

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension NSMutableAttributedString {
+public extension NSMutableAttributedString {
     /**
      根据限制宽度，计算富文本的高度
      - parameter width: 限制宽度

@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITextField {
+public extension UITextField {
 
     func selectedRange() -> NSRange? {
         let beginning = self.beginningOfDocument;

@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView{
+public extension UIView{
     func setGradientLayerWithColor(colors:Array<CGColor>) -> CAGradientLayer {
         let gradientLayer = CAGradientLayer.init();
         gradientLayer.locations = [0.0,0.4,0.8,1.0];

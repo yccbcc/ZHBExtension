@@ -8,7 +8,7 @@
 
 import UIKit
 import Foundation
-extension String {
+public extension String {
     
     /// 改变字符串中数字的颜色和字体
         ///

@@ -9,7 +9,7 @@
 import Foundation
 
 
-extension Date {
+public extension Date {
     
     //MARK: - 现在的时间戳
     static func nowTimeStamp() -> String {

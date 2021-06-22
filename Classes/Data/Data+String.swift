@@ -7,7 +7,7 @@
 //
 
 import Foundation
-extension Data{
+public extension Data{
     
     //将十六进制字符串转化为 Data
     func data(from hexStr: String) -> Data {

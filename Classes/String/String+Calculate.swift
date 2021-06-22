@@ -9,7 +9,7 @@
 import Foundation
 
 
-extension String {
+public extension String {
     
     //MARK: - 比较
     

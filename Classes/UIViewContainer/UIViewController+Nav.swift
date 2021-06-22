@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     
     private func getNavTitleItem(_ title:String,target:Any?,sel:Selector?,titleColor:UIColor) -> UIBarButtonItem {
         let item = UIBarButtonItem.init(title: title, style: .plain, target: target, action: sel)

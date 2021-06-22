@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     
     /** 左闭右闭*/
     func substring(from: Int?, to: Int?) -> String {

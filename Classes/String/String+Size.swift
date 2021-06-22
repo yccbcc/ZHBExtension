@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension String {
+public extension String {
 
     /**
      NSStringDrawingUsesLineFragmentOrigin = 1 << 0, // 整个文本将以每行组成的矩形为单位计算整个文本的尺寸

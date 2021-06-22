@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
     //图片在上 文字在下
     func verticalTopImageAndBottomTitle(spacing:CGFloat) -> Void {
         let imageSize = self.imageView?.frame.size ?? CGSize.zero

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIImage{
+public extension UIImage{
     
     static func compressImage(_ image: UIImage, toByte maxLength: Int) -> Data {
         var compression: CGFloat = 1

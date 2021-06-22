@@ -10,7 +10,7 @@
 
 import Foundation
 
-extension String{
+public extension String{
     
     /**
      *  获取Document路径

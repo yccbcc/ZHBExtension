@@ -8,9 +8,9 @@
 
 import UIKit
 
-var currentFirstResponder:Any?;
+public var currentFirstResponder:Any?;
 
-extension UIResponder{
+public extension UIResponder{
     class func currentFirstResponse() -> Any {
         currentFirstResponder = nil;
         UIApplication.shared.sendAction(#selector(setcurrentFirstResponder), to: nil, from: nil, for: nil);

@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension CGPoint {
+public extension CGPoint {
     func translate(_ dx: CGFloat, dy: CGFloat) -> CGPoint {
         return CGPoint(x: self.x+dx, y: self.y+dy)
     }

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-extension String{
+public extension String{
     /**
      *  国内手机号验证
      */
@@ -45,15 +45,7 @@ extension String{
         let emailCheck = NSPredicate.init(format: "SELF MATCHES %@", stricterFilterString);
         return emailCheck.evaluate(with: self);
     }
-    
-    var isPhone:Bool{
-        let value =  self.trimmingCharacters(in: CharacterSet.whitespaces);
-        if value.count == 11 {
-            return true;
-        }else{
-            return false;
-        }
-    }
+
     
     var isBankCard:Bool{
         let value =  self.trimmingCharacters(in: CharacterSet.whitespaces);

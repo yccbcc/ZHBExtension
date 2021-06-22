@@ -12,7 +12,7 @@
 import Foundation
 import UIKit
 
-extension CALayer{
+public extension CALayer{
     func shake() -> Void {
         let keyFrameAnimation = CAKeyframeAnimation.init(keyPath: "transform.translation.x");
         let s = 16;
