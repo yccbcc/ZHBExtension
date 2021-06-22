@@ -1,7 +1,5 @@
 PODS:
-  - ZHBExtension (1.0.0):
-    - ZHBExtension/Category (= 1.0.0)
-  - ZHBExtension/Category (1.0.0)
+  - ZHBExtension (1.0.0)
 
 DEPENDENCIES:
   - ZHBExtension (from `../`)
@@ -11,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZHBExtension: c9c40a0a0572efc7595b681582135bae93904197
+  ZHBExtension: c1a430871f9d52c8f4334812cd0e9cb2ec93b551
 
 PODFILE CHECKSUM: adb88775e5decbf5712a0ff5718989874ed4a7a1
 
