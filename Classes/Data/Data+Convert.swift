@@ -45,7 +45,7 @@ public extension Data {
         let jsonData:Data = jsonString.data(using: .utf8)!
         let array = try? JSONSerialization.jsonObject(with: jsonData, options: .mutableContainers)
         if array != nil {
-            return array as? Array ?? []
+            return array as? Array
         }
         return Array<Any>.init()
     }

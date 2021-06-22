@@ -1,6 +1,5 @@
 
 
-
 //
 //  Calayer+Animation.swift
 //  lwWallet
@@ -46,7 +45,7 @@ public extension CALayer{
         animation.isCumulative = true;
         animation.autoreverses = false;
         animation.isRemovedOnCompletion = false;
-        animation.fillMode = .forwards;
+        animation.fillMode = CAMediaTimingFillMode.forwards;
         animation.repeatCount = MAXFLOAT;
         self.add(animation, forKey: "rotatianAnimKey")
     }
