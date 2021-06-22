@@ -2,7 +2,7 @@ use_frameworks!
 
 platform :ios, '9.0'
 
-target 'ZHBExtension' do
+target 'Example' do
   pod 'ZHBExtension', :path => '../'
 
   #target 'CCCategoryTool_Tests' do

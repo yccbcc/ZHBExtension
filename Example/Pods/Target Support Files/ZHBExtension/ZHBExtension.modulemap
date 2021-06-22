@@ -1,0 +1,6 @@
+framework module ZHBExtension {
+  umbrella header "ZHBExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

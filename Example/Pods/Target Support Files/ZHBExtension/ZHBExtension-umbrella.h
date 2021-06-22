@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ZHBExtensionVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ZHBExtensionVersionString[];
+FOUNDATION_EXPORT double ZHBExtensionVersionNumber;
+FOUNDATION_EXPORT const unsigned char ZHBExtensionVersionString[];
 

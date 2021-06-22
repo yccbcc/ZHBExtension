@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  ZHBExtension
+//  Example
 //
 //  Created by cyou_zhb on 2021/6/22.
 //
